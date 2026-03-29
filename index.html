@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindWell | Professional Mental Health Care & Therapy</title>
+    <title>Karuna Wellbeing | Professional Mental Health Care & Therapy</title>
     <meta name="description" content="Expert mental health care with licensed psychiatrists and psychologists. Online therapy, counseling, and comprehensive mental wellness programs.">
     
     <!-- Fonts -->
@@ -63,7 +63,6 @@
             padding: 0 24px;
         }
 
-        /* Navigation */
         nav {
             position: fixed;
             top: 0;
@@ -88,7 +87,7 @@
 
         .logo {
             font-family: 'Playfair Display', serif;
-            font-size: 28px;
+            font-size: 26px;
             font-weight: 700;
             color: var(--primary);
             text-decoration: none;
@@ -147,7 +146,6 @@
             transition: 0.3s;
         }
 
-        /* Hero Section */
         .hero {
             padding: 140px 0 80px;
             background: linear-gradient(135deg, var(--bg-cream) 0%, var(--bg-sage) 100%);
@@ -224,7 +222,6 @@
             transform: scale(1.02);
         }
 
-        /* Doctor Profile Card */
         .doctor-profile {
             background: var(--bg-white);
             border-radius: var(--radius-xl);
@@ -291,7 +288,6 @@
             gap: 12px;
         }
 
-        /* Stats Section */
         .stats {
             display: flex;
             justify-content: center;
@@ -318,7 +314,6 @@
             margin-top: 8px;
         }
 
-        /* CTA Banner */
         .cta-banner {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             padding: 60px;
@@ -388,7 +383,6 @@
             box-shadow: var(--shadow-medium);
         }
 
-        /* About Section */
         .about {
             padding: 100px 0;
             background: var(--bg-white);
@@ -501,7 +495,6 @@
             opacity: 0.9;
         }
 
-        /* Services Section */
         .services {
             padding: 100px 0;
             background: var(--bg-sage);
@@ -566,7 +559,6 @@
             line-height: 1.7;
         }
 
-        /* Team Section */
         .team {
             padding: 100px 0;
             background: var(--bg-white);
@@ -625,98 +617,6 @@
             color: var(--text-medium);
         }
 
-        /* Timeline Section */
-        .timeline {
-            padding: 100px 0;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-        }
-
-        .timeline .section-header h2,
-        .timeline .section-header p {
-            color: white;
-        }
-
-        .timeline .section-header p {
-            opacity: 0.85;
-        }
-
-        .timeline-container {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .timeline-container::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 2px;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        .timeline-item {
-            display: flex;
-            justify-content: flex-end;
-            padding-right: 50%;
-            position: relative;
-            margin-bottom: 50px;
-        }
-
-        .timeline-item:nth-child(even) {
-            justify-content: flex-start;
-            padding-right: 0;
-            padding-left: 50%;
-        }
-
-        .timeline-content {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 24px 32px;
-            border-radius: var(--radius-md);
-            max-width: 350px;
-            margin-right: 40px;
-        }
-
-        .timeline-item:nth-child(even) .timeline-content {
-            margin-right: 0;
-            margin-left: 40px;
-        }
-
-        .timeline-year {
-            font-family: 'Playfair Display', serif;
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--accent);
-            margin-bottom: 8px;
-        }
-
-        .timeline-title {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-
-        .timeline-desc {
-            font-size: 15px;
-            opacity: 0.85;
-            line-height: 1.7;
-        }
-
-        .timeline-dot {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 16px;
-            height: 16px;
-            background: var(--accent);
-            border-radius: 50%;
-            border: 3px solid white;
-        }
-
-        /* Gallery Section */
         .gallery {
             padding: 100px 0;
             background: var(--bg-cream);
@@ -751,7 +651,6 @@
             grid-row: span 2;
         }
 
-        /* Footer */
         footer {
             background: var(--text-dark);
             color: white;
@@ -760,7 +659,7 @@
 
         .footer-content {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
+            grid-template-columns: 2fr 1fr 1fr;
             gap: 60px;
             margin-bottom: 60px;
         }
@@ -842,7 +741,6 @@
             color: white;
         }
 
-        /* WhatsApp Button */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
@@ -870,146 +768,50 @@
             color: white;
         }
 
-        /* Animations */
         @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
         }
 
-        /* Responsive */
         @media (max-width: 1024px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .hero-text h1 {
-                font-size: 44px;
-            }
-
-            .services-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .team-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .footer-content {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            .hero-content { grid-template-columns: 1fr; gap: 40px; }
+            .hero-text h1 { font-size: 44px; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .team-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-content { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .mobile-toggle {
-                display: flex;
-            }
-
-            .hero-text h1 {
-                font-size: 36px;
-            }
-
-            .doctor-profile {
-                grid-template-columns: 1fr;
-                text-align: center;
-                padding: 32px;
-            }
-
-            .doctor-image {
-                margin: 0 auto;
-            }
-
-            .stats {
-                flex-wrap: wrap;
-                gap: 40px;
-            }
-
-            .about-content {
-                grid-template-columns: 1fr;
-            }
-
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .team-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .timeline-item,
-            .timeline-item:nth-child(even) {
-                padding: 0 0 0 40px;
-                justify-content: flex-start;
-            }
-
-            .timeline-container::before {
-                left: 0;
-            }
-
-            .timeline-dot {
-                left: 0;
-            }
-
-            .timeline-content,
-            .timeline-item:nth-child(even) .timeline-content {
-                margin: 0;
-                max-width: 100%;
-            }
-
-            .gallery-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .gallery-item:first-child {
-                grid-column: span 2;
-                grid-row: span 1;
-            }
-
-            .footer-content {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-
-            .footer-bottom {
-                flex-direction: column;
-                gap: 20px;
-                text-align: center;
-            }
+            .nav-links { display: none; }
+            .mobile-toggle { display: flex; }
+            .hero-text h1 { font-size: 36px; }
+            .doctor-profile { grid-template-columns: 1fr; text-align: center; padding: 32px; }
+            .doctor-image { margin: 0 auto; }
+            .stats { flex-wrap: wrap; gap: 40px; }
+            .about-content { grid-template-columns: 1fr; }
+            .services-grid { grid-template-columns: 1fr; }
+            .team-grid { grid-template-columns: 1fr; }
+            .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+            .gallery-item:first-child { grid-column: span 2; grid-row: span 1; }
+            .footer-content { grid-template-columns: 1fr; gap: 40px; }
+            .footer-bottom { flex-direction: column; gap: 20px; text-align: center; }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
             <div class="nav-content">
-                <a href="#" class="logo">Mind<span>Well</span></a>
+                <a href="#" class="logo">Karuna <span>Wellbeing</span></a>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#team">Our Team</a></li>
-                    <li><a href="#story">Our Story</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                 </ul>
                 <a href="#contact" class="nav-cta">Book Session</a>
@@ -1022,7 +824,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -1045,20 +846,18 @@
         </div>
     </section>
 
-    <!-- Doctor Profile -->
     <div class="container">
         <div class="doctor-profile">
             <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop" alt="Dr. Sarah Mitchell" class="doctor-image">
             <div class="doctor-info">
                 <h2>Dr. Sarah Mitchell</h2>
-                <p class="doctor-title">Founder of MindWell</p>
+                <p class="doctor-title">Founder of Karuna Wellbeing</p>
                 <p class="doctor-credentials">M.Phil & PhD • Medical Psychologist • Child & Youth Psychology Expert</p>
                 <p class="doctor-quote">"Every mind deserves compassion, and every person deserves to heal."</p>
                 <a href="#" class="doctor-link">Know More →</a>
             </div>
         </div>
 
-        <!-- Stats -->
         <div class="stats">
             <div class="stat-item">
                 <div class="stat-number">10k+</div>
@@ -1074,7 +873,6 @@
             </div>
         </div>
 
-        <!-- CTA Banner -->
         <div class="cta-banner">
             <h3>Start Healing Today</h3>
             <p>Get expert care backed by science</p>
@@ -1082,22 +880,21 @@
         </div>
     </div>
 
-    <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
             <div class="section-header">
-                <h2>About MindWell</h2>
+                <h2>About Karuna Wellbeing</h2>
             </div>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        At MindWell, we believe mental health is not a privilege—it's a right. 
+                        At Karuna Wellbeing, we believe mental health is not a privilege—it's a right. 
                         Since 2015, our team of psychiatric social workers, neuro-psychiatrists, 
                         and clinical psychologists have been transforming lives with evidence-based 
                         care, innovative therapies, and a patient-first approach.
                     </p>
                     <p>
-                        From humble beginnings to serving patients across 5+ countries, MindWell 
+                        From humble beginnings to serving patients across 5+ countries, Karuna Wellbeing 
                         has touched over 10,000 lives with a remarkable 94% success rate. Guided 
                         by empathy, early intervention, and global accessibility, we're committed 
                         to breaking stigma and making healing possible for everyone.
@@ -1141,7 +938,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
             <div class="section-header">
@@ -1207,7 +1003,6 @@
         </div>
     </section>
 
-    <!-- CTA -->
     <div class="container">
         <div class="cta-banner">
             <h3>Take the First Step</h3>
@@ -1216,7 +1011,6 @@
         </div>
     </div>
 
-    <!-- Team Section -->
     <section class="team" id="team">
         <div class="container">
             <div class="section-header">
@@ -1264,7 +1058,6 @@
         </div>
     </section>
 
-    <!-- Therapists Section -->
     <section class="team" style="background: var(--bg-sage);">
         <div class="container">
             <div class="section-header">
@@ -1312,7 +1105,6 @@
         </div>
     </section>
 
-    <!-- CTA -->
     <div class="container">
         <div class="cta-banner">
             <h3>Start Healing Today</h3>
@@ -1321,76 +1113,6 @@
         </div>
     </div>
 
-    <!-- Timeline Section -->
-    <section class="timeline" id="story">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Story</h2>
-                <p>From a small clinic to a global beacon of hope — discover how MindWell is transforming mental health care.</p>
-            </div>
-            <div class="timeline-container">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2027</div>
-                        <div class="timeline-title">No Mental Health Stigma</div>
-                        <p class="timeline-desc">Our vision: a world where mental health care is universally accessible and stigma-free.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2025</div>
-                        <div class="timeline-title">The Future</div>
-                        <p class="timeline-desc">Pioneering AI-powered therapy tools and innovative workplace wellness programs.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2024</div>
-                        <div class="timeline-title">A Legacy of Healing</div>
-                        <p class="timeline-desc">Touched over 10,000 lives across 15+ countries with a 94% success rate.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2020</div>
-                        <div class="timeline-title">Going Global</div>
-                        <p class="timeline-desc">Launched our online therapy platform, making care accessible anywhere in the world.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2018</div>
-                        <div class="timeline-title">Expanding Horizons</div>
-                        <p class="timeline-desc">Expanded to include adult psychiatry, family therapy, and crisis intervention.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2015</div>
-                        <div class="timeline-title">The Beginning</div>
-                        <p class="timeline-desc">MindWell was born with a simple belief: every person deserves mental health support.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <div class="container" style="padding-top: 80px;">
-        <div class="cta-banner">
-            <h3>Take the First Step</h3>
-            <p>Your Path to Peace</p>
-            <a href="#contact" class="btn-primary">Book Your Session</a>
-        </div>
-    </div>
-
-    <!-- Gallery Section -->
     <section class="gallery" id="gallery">
         <div class="container">
             <div class="section-header">
@@ -1426,7 +1148,6 @@
         </div>
     </section>
 
-    <!-- Final CTA -->
     <section style="background: var(--bg-sage); padding: 80px 0;">
         <div class="container" style="text-align: center;">
             <h2 style="font-size: 36px; margin-bottom: 24px;">Together, we'll turn your struggles into strength.</h2>
@@ -1434,14 +1155,13 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contact">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="#" class="logo">Mind<span>Well</span></a>
+                    <a href="#" class="logo">Karuna <span>Wellbeing</span></a>
                     <p>
-                        At MindWell, we believe mental health is not a privilege—it's a right. 
+                        At Karuna Wellbeing, we believe mental health is not a privilege—it's a right. 
                         Our team of experts is dedicated to transforming lives through compassionate, 
                         evidence-based care.
                     </p>
@@ -1452,64 +1172,45 @@
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#team">Our Team</a></li>
-                        <li><a href="#story">Our Story</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">Online Therapy</a></li>
-                        <li><a href="#">Child Psychology</a></li>
-                        <li><a href="#">Family Counseling</a></li>
-                        <li><a href="#">Psychiatry</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Contact</h4>
                     <ul>
-                        <li><a href="mailto:hello@mindwell.com">hello@mindwell.com</a></li>
-                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
-                        <li><a href="#">Your City, Country</a></li>
+                        <li><a href="mailto:care@karunawellbeing.in">care@karunawellbeing.in</a></li>
+                        <li><a href="tel:+919999999999">+91 9999999999</a></li>
+                        <li><a href="#">Ranchi, Jharkhand (India)</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2024 MindWell. All rights reserved.</p>
+                <p>© 2026 Karuna Wellbeing. All rights reserved.</p>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook">
-                        <svg fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                     </a>
                     <a href="#" aria-label="Instagram">
-                        <svg fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </a>
                     <a href="#" aria-label="LinkedIn">
-                        <svg fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                     </a>
                     <a href="#" aria-label="Twitter">
-                        <svg fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                        </svg>
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
                     </a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/YOUR_PHONE_NUMBER?text=Hello%2C%20I'd%20like%20to%20book%20a%20free%20session." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/919999999999?text=Hello%2C%20I'd%20like%20to%20book%20a%20free%20session." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
         <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
         </svg>
     </a>
 
     <script>
-        // Navbar scroll effect
         window.addEventListener('scroll', function() {
             const navbar = document.getElementById('navbar');
             if (window.scrollY > 50) {
@@ -1519,7 +1220,6 @@
             }
         });
 
-        // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1533,7 +1233,6 @@
             });
         });
 
-        // Simple animation on scroll
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -1548,7 +1247,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.service-card, .team-card, .timeline-item').forEach(el => {
+        document.querySelectorAll('.service-card, .team-card').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'all 0.6s ease';
